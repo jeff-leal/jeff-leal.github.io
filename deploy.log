@@ -1,0 +1,61 @@
+﻿2026-08-06T13:44:22.4378972Z Current runner version: '2.336.0'
+2026-08-06T13:44:22.4407196Z ##[group]Runner Image Provisioner
+2026-08-06T13:44:22.4408124Z Hosted Compute Agent
+2026-08-06T13:44:22.4409036Z Version: 20260707.563
+2026-08-06T13:44:22.4409799Z Commit: 02667638d2b423fbc733a8e32a88b44996a3ba6e
+2026-08-06T13:44:22.4410537Z Build Date: 2026-07-07T19:33:50Z
+2026-08-06T13:44:22.4411211Z Worker ID: {80fbde86-91a4-4a80-8d03-e68b5e3913e3}
+2026-08-06T13:44:22.4412081Z Azure Region: northcentralus
+2026-08-06T13:44:22.4412708Z ##[endgroup]
+2026-08-06T13:44:22.4414286Z ##[group]Operating System
+2026-08-06T13:44:22.4414945Z Ubuntu
+2026-08-06T13:44:22.4415483Z 24.04.4
+2026-08-06T13:44:22.4416122Z LTS
+2026-08-06T13:44:22.4416663Z ##[endgroup]
+2026-08-06T13:44:22.4417210Z ##[group]Runner Image
+2026-08-06T13:44:22.4418324Z Image: ubuntu-24.04
+2026-08-06T13:44:22.4419073Z Version: 20260720.247.2
+2026-08-06T13:44:22.4420507Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260720.247/images/ubuntu/Ubuntu2404-Readme.md
+2026-08-06T13:44:22.4422036Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260720.247
+2026-08-06T13:44:22.4423288Z ##[endgroup]
+2026-08-06T13:44:22.4424512Z ##[group]GITHUB_TOKEN Permissions
+2026-08-06T13:44:22.4426945Z Contents: read
+2026-08-06T13:44:22.4427572Z Metadata: read
+2026-08-06T13:44:22.4428255Z Pages: write
+2026-08-06T13:44:22.4429014Z ##[endgroup]
+2026-08-06T13:44:22.4431285Z Secret source: Actions
+2026-08-06T13:44:22.4432705Z Prepare workflow directory
+2026-08-06T13:44:22.4801682Z Prepare all required actions
+2026-08-06T13:44:22.4851882Z Getting action download info
+2026-08-06T13:44:22.7815493Z Download action repository 'actions/deploy-pages@v5' (SHA:cd2ce8fcbc39b97be8ca5fce6e763baed58fa128)
+2026-08-06T13:44:23.3355495Z Complete job name: deploy
+2026-08-06T13:44:23.4180618Z ##[group]Run actions/deploy-pages@v5
+2026-08-06T13:44:23.4181471Z with:
+2026-08-06T13:44:23.4185197Z   token: ***
+2026-08-06T13:44:23.4185639Z   timeout: 600000
+2026-08-06T13:44:23.4186102Z   error_count: 10
+2026-08-06T13:44:23.4186548Z   reporting_interval: 5000
+2026-08-06T13:44:23.4187052Z   artifact_name: github-pages
+2026-08-06T13:44:23.4187548Z   preview: false
+2026-08-06T13:44:23.4188133Z ##[endgroup]
+2026-08-06T13:44:23.6290761Z (node:2253) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-08-06T13:44:23.6308311Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-08-06T13:44:23.7599546Z Fetching artifact metadata for "github-pages" in this workflow run
+2026-08-06T13:44:23.8764647Z Found 1 artifact(s)
+2026-08-06T13:44:23.8777441Z Creating Pages deployment with payload:
+2026-08-06T13:44:23.8779192Z {
+2026-08-06T13:44:23.8780272Z 	"artifact_id": 8970118393,
+2026-08-06T13:44:23.8781860Z 	"pages_build_version": "4c7e43b16d3e8dcc617ef9160ba55304aba5f640",
+2026-08-06T13:44:23.8879989Z 	"oidc_token": "***"
+2026-08-06T13:44:23.8880959Z }
+2026-08-06T13:44:24.1471683Z ##[error]Creating Pages deployment failed
+2026-08-06T13:44:24.3204616Z ##[error]HttpError: Deployment request failed for 4c7e43b16d3e8dcc617ef9160ba55304aba5f640 due to in progress deployment. Please cancel f5bbf8ee3e3f3e2b61a3f8b28fc2aff6a9dfcd91 first or wait for it to complete.
+    at /home/runner/work/_actions/actions/deploy-pages/v5/node_modules/@octokit/request/dist-node/index.js:124:1
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at createPagesDeployment (/home/runner/work/_actions/actions/deploy-pages/v5/src/internal/api-client.js:125:1)
+    at Deployment.create (/home/runner/work/_actions/actions/deploy-pages/v5/src/internal/deployment.js:73:1)
+    at main (/home/runner/work/_actions/actions/deploy-pages/v5/src/index.js:30:1)
+2026-08-06T13:44:24.3270886Z ##[error]Error: Failed to create deployment (status: 400) with build version 4c7e43b16d3e8dcc617ef9160ba55304aba5f640. Request ID 0410:2A2029:4C8E191:10074E3D:6A748FB7 Responded with: Deployment request failed for 4c7e43b16d3e8dcc617ef9160ba55304aba5f640 due to in progress deployment. Please cancel f5bbf8ee3e3f3e2b61a3f8b28fc2aff6a9dfcd91 first or wait for it to complete.
+2026-08-06T13:44:24.3689048Z Evaluate and set environment url
+2026-08-06T13:44:24.3696988Z Evaluated environment url: 
+2026-08-06T13:44:24.3699233Z Cleaning up orphan processes
