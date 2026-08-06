@@ -25,7 +25,7 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 
 ## Research
- *R&R at the British Journal of Political Science*. Anderson Frey & Jefferson Leal. "When Crisis Hits, Does Experience Matter? Evidence from COVID-19 Vaccination"
+ *Accepted at the British Journal of Political Science*. Anderson Frey & Jefferson Leal. "When Crisis Hits, Does Experience Matter? Evidence from COVID-19 Vaccination"
 <details>
   <summary>Abstract</summary>
   Politicians often highlight prior office experience to appeal to voters, who seem to value this attribute. However, the role of political experience in determining actual policy outcomes remains overlooked by the literature, particularly during times of crisis when experience becomes uniquely salient to the electorate. This article examines how political experience affects policy implementation during a crisis using data on COVID-19 vaccinations across Brazilian municipalities in 2021. The findings show that vaccination rates were 12 p.p. higher in cities governed by incumbent mayors reelected in November 2020—who already had extensive experience managing the pandemic—compared to cities that elected newcomers. These effects cannot be attributed to bureaucratic turnover or differences in reelection incentives. They are also concentrated in municipalities severely affected by the pandemic earlier in 2020, supporting the argument that early crisis management experience, through learning-by-doing, significantly enhanced mayors’ performance during the vaccine rollout.
