@@ -1,27 +1,21 @@
 /*
- * Two-state theme toggle: light <-> dark.
+ * Three-state theme toggle: system -> dark -> light -> system.
  *
- * Until the visitor clicks, nothing is stored and no data-theme attribute is
- * set, so the stylesheet's prefers-color-scheme rule decides and the page
- * follows the operating system. The first click pins an explicit choice,
- * which then persists in localStorage.
+ * The choice is stored in localStorage and expressed as data-theme on
+ * <html>. "system" removes the attribute entirely, which hands control
+ * back to the @media (prefers-color-scheme: dark) rule in the stylesheet.
  *
- * Loaded from <head> without defer, so the attribute is set before the first
- * paint and the page never flashes the wrong palette.
+ * This file is loaded from <head> without defer, so the attribute is set
+ * before the first paint and the page never flashes the wrong palette.
  */
 (function () {
   var KEY = 'theme';
-
-  // A lightbulb: filled and lit in light mode, hollow and off in dark. Same
-  // glass and cap in both states, so only the fill changes when it flips.
-  var GLASS = 'M12 2.6a5.9 5.9 0 0 0-3.1 10.9v1.3h6.2v-1.3A5.9 5.9 0 0 0 12 2.6z';
-  var CAP = '<path d="M9.7 16.8h4.6M10.8 19.3h2.4" fill="none" stroke="currentColor"' +
-            ' stroke-width="1.5" stroke-linecap="round"/>';
-
-  var GLYPH = {
-    light: '<path d="' + GLASS + '" fill="currentColor"/>' + CAP,
-    dark:  '<path d="' + GLASS + '" fill="none" stroke="currentColor"' +
-           ' stroke-width="1.6" stroke-linejoin="round"/>' + CAP
+  var ORDER = ['system', 'dark', 'light'];
+  var TEXT = { system: 'Auto', dark: 'Dark', light: 'Light' };
+  var LABELS = {
+    system: 'Theme: following your system',
+    dark: 'Theme: dark',
+    light: 'Theme: light'
   };
 
   var root = document.documentElement;
@@ -30,17 +24,20 @@
   function stored() {
     try {
       var v = localStorage.getItem(KEY);
-      return (v === 'light' || v === 'dark') ? v : null;
+      return ORDER.indexOf(v) === -1 ? 'system' : v;
     } catch (e) {
-      return null;                             // private mode, storage blocked
+      return 'system';                       // private mode, storage blocked
     }
   }
 
-  function effective() {
-    return stored() || (media && media.matches ? 'dark' : 'light');
+  function effective(pref) {
+    if (pref !== 'system') return pref;
+    return media && media.matches ? 'dark' : 'light';
   }
 
-  function favicon(theme) {
+  // The <link rel="icon" media="..."> tags in the head only follow the OS, so
+  // an explicit choice needs the icon set directly.
+  function favicon(pref) {
     var link = document.getElementById('theme-favicon');
     if (!link) {
       link = document.createElement('link');
@@ -49,55 +46,53 @@
       link.type = 'image/png';
       document.head.appendChild(link);
     }
-    link.href = theme === 'dark'
+    link.href = effective(pref) === 'dark'
       ? './assets/img/favicon-dark.png'
       : './assets/img/favicon.png';
   }
 
-  function apply(theme, explicit) {
-    if (explicit) {
-      root.setAttribute('data-theme', theme);
-    } else {
+  function apply(pref) {
+    if (pref === 'system') {
       root.removeAttribute('data-theme');
+    } else {
+      root.setAttribute('data-theme', pref);
     }
-    favicon(theme);
+    favicon(pref);
   }
 
-  function paint(theme) {
+  function paint(pref) {
     var btn = document.getElementById('theme-toggle');
     if (!btn) return;
-    btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">' + GLYPH[theme] + '</svg>';
-    var next = theme === 'dark' ? 'light' : 'dark';
-    var label = 'Switch to ' + next + ' mode';
-    btn.setAttribute('title', label);
-    btn.setAttribute('aria-label', label);
+    btn.textContent = TEXT[pref];
+    btn.setAttribute('title', LABELS[pref]);
+    btn.setAttribute('aria-label', LABELS[pref] + '. Click to change.');
   }
 
-  apply(effective(), stored() !== null);
+  // Runs while <head> is parsing, before anything is drawn.
+  apply(stored());
 
   document.addEventListener('DOMContentLoaded', function () {
-    paint(effective());
+    paint(stored());
 
     var btn = document.getElementById('theme-toggle');
     if (!btn) return;
 
     btn.addEventListener('click', function () {
-      var next = effective() === 'dark' ? 'light' : 'dark';
+      var next = ORDER[(ORDER.indexOf(stored()) + 1) % ORDER.length];
       try {
         localStorage.setItem(KEY, next);
       } catch (e) {}
-      apply(next, true);
+      apply(next);
       paint(next);
     });
   });
 
-  // Follow the OS while the visitor has not chosen for themselves.
+  // Keep the icon honest if the OS flips while we are following it.
   if (media && media.addEventListener) {
     media.addEventListener('change', function () {
-      if (stored() === null) {
-        var t = effective();
-        favicon(t);
-        paint(t);
+      if (stored() === 'system') {
+        paint('system');
+        favicon('system');
       }
     });
   }
