@@ -11,7 +11,27 @@ keywords: political science, computational social science, NLP, causal inference
 description: Jefferson Leal is a PhD Candidate in Political Science at the University of Rochester, specializing in computational text analysis and Latin American politics.
 canonical: https://jeff-lecio.github.io/
 
-# Links 
+# Site URL. Needed by jekyll-sitemap to build absolute links.
+url: https://jeff-lecio.github.io
+baseurl: ""
+
+# Paste the content="..." value from Google Search Console's HTML tag method here.
+# Leave empty and no tag is emitted.
+google_site_verification: ""
+
+# Profiles to declare as the same person in the page's structured data.
+# Every URL you add here, and every one of those profiles that links back,
+# is a signal Google uses to connect this site to your name.
+same_as:
+  - https://github.com/jeff-lecio
+# - https://scholar.google.com/citations?user=YOUR_ID
+# - https://orcid.org/0000-0000-0000-0000
+# - https://www.linkedin.com/in/your-handle/
+
+plugins:
+  - jekyll-sitemap
+
+# Links
 # If you don't need one of them, you may delete the corresponding line.
 #google_scholar: https://scholar.google.com/
 #cv_link: assets/files/curriculum_vitae.pdf
