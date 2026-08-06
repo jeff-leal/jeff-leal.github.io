@@ -18,7 +18,7 @@
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 
-:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #002D72; --global-hover-color: #ffb81c; --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
+:root { --global-bg-color: #FAF6F0; --global-code-bg-color: rgba(123, 43, 50, 0.06); --global-text-color: #2E2A27; --global-text-color-light: #6B625A; --global-theme-color: #7B2B32; --global-hover-color: #98352C; --global-footer-bg-color: #2E2A27; --global-footer-text-color: #F1E9DE; --global-footer-link-color: #FAF6F0; --global-distill-app-color: #6B625A; }
 
 blockquote { background: var(--global-bg-color); border-left: 2px solid var(--global-theme-color); margin: 1.5em 10px; padding: 0.5em 10px; font-size: 1.2rem; }
 
@@ -32,7 +32,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications h2 span { font-size: 1.5rem; }
 
-.publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; margin-top: 2rem; margin-bottom: 0rem; text-align: right; }
+.publications h2.year { color: #6B625A; border-top: 1px solid #E0D5C6; margin-top: 2rem; margin-bottom: 0rem; text-align: right; }
 
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
 

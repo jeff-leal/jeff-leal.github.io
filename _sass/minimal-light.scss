@@ -7,17 +7,15 @@
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#043361!important;
+  color:#7B2B32!important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
   line-height:2.5rem;
   margin-right:1rem}
 
-@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
-
-.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
-    color:black;
+.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:transparent;
+    color:#6B2119;
     transform: scale(1.2)}
     /*
     .social-icons a:after {
@@ -35,28 +33,8 @@
       }
      */
 
-@media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
-    color:black;
-    transform: scale(1.2)} 
-    /*
-    .social-icons a:after {
-        content: '';
-        display: block;
-        margin: 0px;
-        height: 1px;
-        width: 0px;
-        background: transparent;
-        transition: width .5s ease, background-color .5s ease;
-      }
-    .social-icons a:hover:after {
-        width: 100%;
-        background: #a0b0ff;
-      }
-    */
-}
-
 .icon-button{
-  background-color:white;
+  background-color:#00FFFFFF;
   border-radius:3.6rem;
   cursor:pointer;
   display:inline-block;
@@ -110,7 +88,7 @@ email {
 
 .icon-button i{
   background:none;
-  color:white;
+  color:#00FFFFFF;
   height:3.6rem;
   left:0;
   line-height:3.6rem;
@@ -138,7 +116,7 @@ email {
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
 autocolor{
-  color:#595959;
+  color:#6B625A;
 }
 
 lightonly {
@@ -157,31 +135,6 @@ papertitle {
     font-weight: 600;
     font-size: 100%;
   }
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #20212b;
-        color: #dadbdf;
-    }
-
-    autocolor{
-      color:#dadbdf;
-    }
-
-    lightonly {
-      visibility: hidden;
-    }
-
-    darkonly {
-      visibility: visible;
-    }
-
-    papertitle {
-    color:#eeeff0;
-    }
-
-}
-
 
   .image {
     border-radius: 0.35em;
@@ -230,31 +183,22 @@ papertitle {
 
 h3, h4, h5, h6 {
   font-weight: 600;
-  color:#043361;
+  color:#4A3B36;
   margin:0 0 20px;
 }
 
 h1 {
+  font-family: "Blender Pro Medium";
   font-weight: 500;
-  color:#043361;
+  color:#7B2B32;
   margin:0 0 20px;
 }
 
 h2 {
-  color:#043361;
+  color:#7B2B32;
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
-}
-
-@media (prefers-color-scheme: dark) {
-  h1, h3, h4, h5, h6 {
-    color:rgb(62, 183, 240);
-  }
-
-  h2 {
-    color:rgb(62, 183, 240);
-  }
 }
 
 p, ul, ol, table, pre, dl {
@@ -266,33 +210,29 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:35px;
+  font-size:38px;
 }
 
 a {
-  color:#39c;
+  color:#98352C;
+  //color:#7474fd;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
-}
-
-@media (prefers-color-scheme: dark) {
-  a {
-    color:rgb(62, 183, 240);
-  }
+  //color:#5151b1;
+  color:#6B2119;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#6B625A;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:#6B625A;
 }
 
 .wrapper {
@@ -301,7 +241,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid transparent; //#e5e5e5;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -309,16 +249,16 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  //font-family:'Courier New', Courier, monospace;
-  color:#333;
+  //font-family:'Times New Roman', Times, serif;
+  color:#2E2A27;
 }
 
 pre {
   max-width:500px;
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #F1E9DE;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid transparent;// #e5e5e5;
   overflow-x: auto;
 }
 
@@ -330,26 +270,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid transparent;// #e5e5e5;
 }
 
 dt {
-  color:#444;
+  color:#4A3B36;
   font-weight:500;
 }
 
 th {
-  color:#444;
-}
-
-@media (prefers-color-scheme: dark) {
-  th {
-    color:rgb(62, 183, 240);
-  }
-
-  dt {
-    color:rgb(62, 183, 240);
-  }
+  color:#4A3B36;
 }
 
 img {
@@ -371,16 +301,16 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+  background: #F1E9DE;
   border-radius:5px;
-  border:1px solid #e0e0e0;
+  border:1px solid transparent;// #e0e0e0;
   width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #e0e0e0;
+  border-right:1px solid transparent;// #e0e0e0;
   height:40px;
 }
 
@@ -395,7 +325,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#6B625A;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -403,22 +333,16 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  color:#2E2A27;
 }
 
 header ul a:active {
-  background-color:#f0f0f0;
+  background-color:#E0D5C6;
 }
 
 strong {
-  color:#222;
+  color:#2E2A27;
   font-weight:500;
-}
-
-@media (prefers-color-scheme: dark) {
-  strong {
-    color:#eeeff0;
-  }
 }
 
 header ul li + li + li {
@@ -429,7 +353,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#2E2A27;
 }
 
 section {
@@ -445,7 +369,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#E0D5C6;
   height:1px;
   margin:0 0 20px;
 }
@@ -482,7 +406,7 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid transparent;// #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -574,7 +498,7 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:#2E2A27;
   }
 }
 
@@ -595,4 +519,118 @@ footer {
   margin-left: 0px;
   display:none;
   font-family: monospace;
+}
+
+
+
+// ---------------------------------------------------------------
+// Palette: Claret & Bone
+//   paper #FAF6F0   panel #F1E9DE   rule #E0D5C6
+//   text  #2E2A27   muted #6B625A
+//   h1/h2 #7B2B32   h3-h6 #4A3B36
+//   link  #98352C   hover #6B2119
+// Every value clears WCAG 2.2 AA (4.5:1) against the paper.
+// ---------------------------------------------------------------
+body {
+  background-color: #FAF6F0;
+  color: #2E2A27;
+  text-align: justify;
+}
+
+h1 {
+  margin-top: 210px;
+}
+
+// ---------------------------------------------------------------
+// Palette: Claret & Bone, after dark
+// Driven by the OS setting via prefers-color-scheme; this theme has
+// no on-page toggle. Each colour keeps the hue of its light-mode twin
+// and re-solves lightness for the same contrast ordering.
+//   paper #1D1719   panel #282023   rule #3E3236
+//   text  #DDD8D9   muted #988485
+//   h1/h2 #D4999E   h3-h6 #CDC0C1
+//   link  #CE7E76   hover #D0A19C
+// ---------------------------------------------------------------
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #1D1719;
+    color: #DDD8D9;
+  }
+
+  h1, h2 {
+    color: #D4999E;
+  }
+
+  h3, h4, h5, h6 {
+    color: #CDC0C1;
+  }
+
+  a {
+    color: #CE7E76;
+  }
+
+  a:hover {
+    color: #D0A19C;
+  }
+
+  a small,
+  a:hover small,
+  autocolor {
+    color: #988485;
+  }
+
+  .social-icons a {
+    color: #D29A9F !important;
+  }
+
+  .social-icons a:hover {
+    background-color: transparent;
+    color: #DDD8D9;
+  }
+
+  strong,
+  papertitle {
+    color: #F0EAEA;
+  }
+
+  header ul a strong {
+    color: #F0EAEA;
+  }
+
+  code, pre {
+    color: #DDD8D9;
+  }
+
+  pre {
+    background: #282023;
+  }
+
+  header ul {
+    background: #282023;
+  }
+
+  header ul a {
+    color: #988485;
+  }
+
+  header ul a:hover {
+    color: #DDD8D9;
+  }
+
+  header ul a:active {
+    background-color: #3E3236;
+  }
+
+  th, dt {
+    color: #CDC0C1;
+  }
+
+  hr {
+    background: #3E3236;
+  }
+
+  // The theme uses these to show/hide per-mode content.
+  lightonly { visibility: hidden; }
+  darkonly  { visibility: visible; }
 }

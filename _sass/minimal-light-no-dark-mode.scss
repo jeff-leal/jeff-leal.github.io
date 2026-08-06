@@ -7,7 +7,7 @@
   height:2.4rem;
   width:2.4rem;
   background-color:transparent;
-  color:#043361!important;
+  color:#7B2B32!important;
   border-radius:100%;
   text-align:center;
   font-size:1.15rem;
@@ -15,7 +15,7 @@
   margin-right:1rem}
 
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:transparent;
-    color:black;
+    color:#6B2119;
     transform: scale(1.2)}
     /*
     .social-icons a:after {
@@ -116,7 +116,7 @@ email {
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
 autocolor{
-  color:#595959;
+  color:#6B625A;
 }
 
 lightonly {
@@ -183,19 +183,19 @@ papertitle {
 
 h3, h4, h5, h6 {
   font-weight: 600;
-  color:#003540;
+  color:#4A3B36;
   margin:0 0 20px;
 }
 
 h1 {
   font-family: "Blender Pro Medium";
   font-weight: 500;
-  color:#043361;
+  color:#7B2B32;
   margin:0 0 20px;
 }
 
 h2 {
-  color:#043361;
+  color:#7B2B32;
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
@@ -214,25 +214,25 @@ h1 {
 }
 
 a {
-  color:#5a5af5;
+  color:#98352C;
   //color:#7474fd;
   text-decoration:none;
 }
 
 a:hover {
   //color:#5151b1;
-  color:#4848c4;
+  color:#6B2119;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#6B625A;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:#6B625A;
 }
 
 .wrapper {
@@ -250,13 +250,13 @@ blockquote {
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   //font-family:'Times New Roman', Times, serif;
-  color:#333;
+  color:#2E2A27;
 }
 
 pre {
   max-width:500px;
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #F1E9DE;
   border-radius:5px;
   border:1px solid transparent;// #e5e5e5;
   overflow-x: auto;
@@ -274,12 +274,12 @@ th, td {
 }
 
 dt {
-  color:#444;
+  color:#4A3B36;
   font-weight:500;
 }
 
 th {
-  color:#444;
+  color:#4A3B36;
 }
 
 img {
@@ -301,7 +301,7 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+  background: #F1E9DE;
   border-radius:5px;
   border:1px solid transparent;// #e0e0e0;
   width:270px;
@@ -325,7 +325,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#6B625A;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -333,15 +333,15 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  color:#2E2A27;
 }
 
 header ul a:active {
-  background-color:#f0f0f0;
+  background-color:#E0D5C6;
 }
 
 strong {
-  color:#222;
+  color:#2E2A27;
   font-weight:500;
 }
 
@@ -353,7 +353,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#2E2A27;
 }
 
 section {
@@ -369,7 +369,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#E0D5C6;
   height:1px;
   margin:0 0 20px;
 }
@@ -498,7 +498,7 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:#2E2A27;
   }
 }
 
@@ -523,9 +523,17 @@ footer {
 
 
 
-// My additions
+// ---------------------------------------------------------------
+// Palette: Claret & Bone
+//   paper #FAF6F0   panel #F1E9DE   rule #E0D5C6
+//   text  #2E2A27   muted #6B625A
+//   h1/h2 #7B2B32   h3-h6 #4A3B36
+//   link  #98352C   hover #6B2119
+// Every value clears WCAG 2.2 AA (4.5:1) against the paper.
+// ---------------------------------------------------------------
 body {
-  background-color: #c1d2db;
+  background-color: #FAF6F0;
+  color: #2E2A27;
   text-align: justify;
 }
 
