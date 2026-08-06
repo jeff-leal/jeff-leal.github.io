@@ -542,16 +542,63 @@ h1 {
 }
 
 // ---------------------------------------------------------------
+// The theme toggle in the top-right corner. Cycles system -> dark ->
+// light; assets/js/theme-toggle.js stores the choice and sets
+// data-theme on <html>. Typographic rather than an icon, to match a
+// page that is otherwise all text.
+// ---------------------------------------------------------------
+#theme-toggle {
+  position: fixed;
+  top: 22px;
+  right: 22px;
+  z-index: 100;
+  padding: 0.45rem 0.85rem 0.4rem;
+  border: 1px solid #E0D5C6;
+  border-radius: 2rem;
+  background-color: #F1E9DE;
+  color: #7B2B32;
+  font-family: inherit;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+
+#theme-toggle:hover {
+  background-color: #E0D5C6;
+}
+
+#theme-toggle:focus-visible {
+  outline: 2px solid #98352C;
+  outline-offset: 2px;
+}
+
+@media print, screen and (max-width: 480px) {
+  #theme-toggle {
+    top: 12px;
+    right: 12px;
+    font-size: 0.56rem;
+  }
+}
+
+// ---------------------------------------------------------------
 // Palette: Claret & Bone, after dark
-// Driven by the OS setting via prefers-color-scheme; this theme has
-// no on-page toggle. Each colour keeps the hue of its light-mode twin
-// and re-solves lightness for the same contrast ordering.
+// Each colour keeps the hue of its light-mode twin and re-solves
+// lightness for the same contrast ordering.
 //   paper #1D1719   panel #282023   rule #3E3236
 //   text  #DDD8D9   muted #988485
 //   h1/h2 #D4999E   h3-h6 #CDC0C1
 //   link  #CE7E76   hover #D0A19C
+//
+// Applied twice, at the bottom of this file: once when the visitor has
+// explicitly asked for dark, and once when they have expressed no
+// preference and their OS asks for dark. Written as a mixin so the two
+// never drift apart.
 // ---------------------------------------------------------------
-@media (prefers-color-scheme: dark) {
+@mixin claret-dark {
 
   body {
     background-color: #1D1719;
@@ -633,4 +680,32 @@ h1 {
   // The theme uses these to show/hide per-mode content.
   lightonly { visibility: hidden; }
   darkonly  { visibility: visible; }
+
+  #theme-toggle {
+    border-color: #3E3236;
+    background-color: #282023;
+    color: #D4999E;
+  }
+
+  #theme-toggle:hover {
+    background-color: #3E3236;
+  }
+
+  #theme-toggle:focus-visible {
+    outline-color: #CE7E76;
+  }
+}
+
+// The visitor asked for dark explicitly.
+html[data-theme="dark"] {
+  @include claret-dark;
+}
+
+// The visitor has expressed no preference, and their OS asks for dark.
+// Also the no-JavaScript path, which is why the dark palette is not
+// driven from the script alone.
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]):not([data-theme="dark"]) {
+    @include claret-dark;
+  }
 }

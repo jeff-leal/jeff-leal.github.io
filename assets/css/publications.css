@@ -20,7 +20,13 @@
 
 :root { --global-bg-color: #FAF6F0; --global-code-bg-color: rgba(123, 43, 50, 0.06); --global-text-color: #2E2A27; --global-text-color-light: #6B625A; --global-theme-color: #7B2B32; --global-hover-color: #98352C; --global-footer-bg-color: #2E2A27; --global-footer-text-color: #F1E9DE; --global-footer-link-color: #FAF6F0; --global-distill-app-color: #6B625A; }
 
-@media (prefers-color-scheme: dark) { :root { --global-bg-color: #1D1719; --global-code-bg-color: rgba(212, 153, 158, 0.10); --global-text-color: #DDD8D9; --global-text-color-light: #988485; --global-theme-color: #D4999E; --global-hover-color: #CE7E76; --global-footer-bg-color: #282023; --global-footer-text-color: #DDD8D9; --global-footer-link-color: #D4999E; --global-distill-app-color: #988485; }}
+/* Dark variables, applied two ways so an explicit choice in the
+   theme toggle wins over the OS setting. */
+html[data-theme="dark"] { --global-bg-color: #1D1719; --global-code-bg-color: rgba(212, 153, 158, 0.10); --global-text-color: #DDD8D9; --global-text-color-light: #988485; --global-theme-color: #D4999E; --global-hover-color: #CE7E76; --global-footer-bg-color: #282023; --global-footer-text-color: #DDD8D9; --global-footer-link-color: #D4999E; --global-distill-app-color: #988485; }
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]):not([data-theme="dark"]) { --global-bg-color: #1D1719; --global-code-bg-color: rgba(212, 153, 158, 0.10); --global-text-color: #DDD8D9; --global-text-color-light: #988485; --global-theme-color: #D4999E; --global-hover-color: #CE7E76; --global-footer-bg-color: #282023; --global-footer-text-color: #DDD8D9; --global-footer-link-color: #D4999E; --global-distill-app-color: #988485; }
+}
 
 blockquote { background: var(--global-bg-color); border-left: 2px solid var(--global-theme-color); margin: 1.5em 10px; padding: 0.5em 10px; font-size: 1.2rem; }
 
@@ -60,10 +66,11 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
 
-@media (prefers-color-scheme: dark) {
-.publications ol.bibliography li .links a.btn { color: #FFFFFF; border: 1px solid #FFFFFF; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
+html[data-theme="dark"] .publications ol.bibliography li .links a.btn { color: #FFFFFF; border: 1px solid #FFFFFF; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
 
-  }
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]):not([data-theme="dark"]) .publications ol.bibliography li .links a.btn { color: #FFFFFF; border: 1px solid #FFFFFF; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
+}
 
 .publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
 
