@@ -12,14 +12,16 @@
 (function () {
   var KEY = 'theme';
 
-  // Half-filled circle: the standard alternative to the sun/moon pair, and
-  // the one Bootstrap, Material and Phosphor all ship. The fill sits on the
-  // left in light mode and flips to the right in dark.
+  // A lightbulb: filled and lit in light mode, hollow and off in dark. Same
+  // glass and cap in both states, so only the fill changes when it flips.
+  var GLASS = 'M12 2.6a5.9 5.9 0 0 0-3.1 10.9v1.3h6.2v-1.3A5.9 5.9 0 0 0 12 2.6z';
+  var CAP = '<path d="M9.7 16.8h4.6M10.8 19.3h2.4" fill="none" stroke="currentColor"' +
+            ' stroke-width="1.5" stroke-linecap="round"/>';
+
   var GLYPH = {
-    light: '<circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" stroke-width="1.6"/>' +
-           '<path d="M12 3.6A8.4 8.4 0 0 0 12 20.4Z" fill="currentColor"/>',
-    dark:  '<circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" stroke-width="1.6"/>' +
-           '<path d="M12 3.6A8.4 8.4 0 0 1 12 20.4Z" fill="currentColor"/>'
+    light: '<path d="' + GLASS + '" fill="currentColor"/>' + CAP,
+    dark:  '<path d="' + GLASS + '" fill="none" stroke="currentColor"' +
+           ' stroke-width="1.6" stroke-linejoin="round"/>' + CAP
   };
 
   var root = document.documentElement;
