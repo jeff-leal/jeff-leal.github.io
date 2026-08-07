@@ -75,4 +75,9 @@ exclude:
   - README_de.md
   - LICENSE
   - minimal-light.gemspec
+  # Working files kept in the repo but not part of the published site.
+  - name typography.pptx
+  - jeff_profile_pic.png          # the published copy lives in assets/img/
+  # Font demo page shipped with Blender Pro; was showing up in the sitemap.
+  - assets/fonts/BlenderPro/demo.html
   - html_source_file/

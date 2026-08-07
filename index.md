@@ -53,6 +53,8 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 ### Teaching Assistant (at ICPSR Summer Program in Quantitative Methods)
 
+Graduate
+
 - Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026)
 - Causal Inference II for the Social Science (Summer 2025, Summer 2026)
 
@@ -63,6 +65,17 @@ Undergraduate
 - Senior Honors Seminar (Fall 2024, Spring 2025)
 - Introduction to International Political Economy (Spring 2024)
 - Introduction to Comparative Politics (Fall 2023)
+
+### Instructor of Record (at Universidade Paulista, Brazil)
+
+Undergraduate (2017–2021)
+
+- Economics and International Politics
+- Geopolitics and Global Markets
+- International Business
+- Microeconomics I
+- Microeconomics II
+- Introduction to Statistics
 
 <!-- {% include_relative _includes/publications.md %} -->
 
