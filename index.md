@@ -66,6 +66,19 @@ Undergraduate
 - Introduction to International Political Economy (Spring 2024)
 - Introduction to Comparative Politics (Fall 2023)
 
+### Teaching Assistant (at IPSA São Paulo Summer School in Methods)
+
+Graduate
+
+- Survey Design (2020)
+- Survey Analysis (2020)
+
+### Teaching Assistant (at University of São Paulo)
+
+Graduate
+
+- Quantitative Methods for Social Sciences (2018)
+
 ### Instructor of Record (at Universidade Paulista, Brazil)
 
 Undergraduate (2017–2021)
