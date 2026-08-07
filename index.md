@@ -56,7 +56,7 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 Graduate
 
 - Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026)
-- Causal Inference II for the Social Science (Summer 2025, Summer 2026)
+- Causal Inference II for the Social Sciences (Summer 2025, Summer 2026)
 
 ### Teaching Assistant (at University of Rochester)
 
