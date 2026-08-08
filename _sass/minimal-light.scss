@@ -642,6 +642,11 @@ h1 {
   position: sticky;
   top: 0;
   z-index: 90;
+  // Tall enough that the floating theme toggle sits fully inside the bar
+  // rather than being clipped by its lower edge once the bar is pinned.
+  // The toggle runs from 22px to 64px, so 66px clears it at every width.
+  box-sizing: border-box;
+  min-height: 66px;
   display: flex;
   gap: 1.7rem;
   align-items: center;
@@ -696,11 +701,10 @@ h2[id] {
     // Bleed to the screen edges so content does not show beside the bar.
     margin-left: -15px;
     margin-right: -15px;
-    // Symmetric, so the centred links stay visually centred. The theme
-    // toggle sits above the bar's right end, which centred links do not
-    // reach; if enough sections are ever added, the bar scrolls sideways.
-    padding-left: 15px;
-    padding-right: 15px;
+    // Symmetric, so the centred links stay centred while still keeping
+    // clear of the toggle at the right end.
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
   }
 }
 
