@@ -29,8 +29,8 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
   Politicians often highlight prior office experience to appeal to voters, who seem to value this attribute. However, the role of political experience in determining actual policy outcomes remains overlooked by the literature, particularly during times of crisis when experience becomes uniquely salient to the electorate. This article examines how political experience affects policy implementation during a crisis using data on COVID-19 vaccinations across Brazilian municipalities in 2021. The findings show that vaccination rates were 12 p.p. higher in cities governed by incumbent mayors reelected in November 2020—who already had extensive experience managing the pandemic—compared to cities that elected newcomers. These effects cannot be attributed to bureaucratic turnover or differences in reelection incentives. They are also concentrated in municipalities severely affected by the pandemic earlier in 2020, supporting the argument that early crisis management experience, through learning-by-doing, significantly enhanced mayors’ performance during the vaccine rollout.
 </details>
 <br>
- Eduardo Lazzari & Jefferson Leal. "Brazilian Tax Policy under the Lens of Inequality"<br>
- *Chapter in The Policies of Politics · in Portuguese*
+ Eduardo Lazzari & Jefferson Leal. "Brazilian Tax Policy under the Lens of Inequality" [[Publisher]](https://editoraunesp.com.br/catalogo/9788539308187,as-politicas-da-politica)<br>
+ *Book Chapter in The Policies of Politics · in Portuguese*
  <details>
   <summary>Abstract</summary>
   Tax policy is a central instrument for reducing income inequality, yet in Brazil it has drawn far less attention than social spending. This chapter examines the personal income tax from 1985 to 2017, the federal tax with the most direct distributive effect and therefore the clearest record of what successive governments intended. Drawing on data from the Federal Revenue Service and the National Treasury Secretariat, and on every statute that altered the tax over the period, we trace revenue composition, the treatment of income across brackets, and the tax's legislative history. Regressivity held steady from at least 1990 to 2015, and no government implemented significant changes aimed at reducing inequality through this tax. Most amendments cut progressivity through exemptions and deductions. Neither democratization, electoral competition, nor left-wing incumbency produced redistributive tax policy, which follows a political logic of its own.
@@ -66,7 +66,9 @@ Graduate
 
 ### Teaching Assistant (at University of Rochester)
 
-Undergraduate · *Best Teaching Assistant Award, 2024*
+*Best Teaching Assistant in Political Science, 2024*
+
+Undergraduate
 
 - Senior Honors Seminar (Fall 2024, Spring 2025)
 - Introduction to International Political Economy (Spring 2024)
