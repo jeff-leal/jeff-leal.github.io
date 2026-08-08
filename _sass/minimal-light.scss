@@ -236,7 +236,14 @@ a:hover small {
 }
 
 .wrapper {
-  width:960px;
+  // Was a flat 960px, which left most of a wide screen empty. Now it grows
+  // with the viewport up to a ceiling. The ceiling exists because the body
+  // text is justified: past roughly this width the measure gets too long to
+  // read comfortably.
+  // Written as width + max-width rather than min(), because the Sass engine
+  // GitHub Pages uses tries to evaluate min() and errors on mixed units.
+  width: 92vw;
+  max-width: 1180px;
   margin:0 auto;
 }
 
@@ -357,7 +364,9 @@ header ul a strong {
 }
 
 section {
-  width:650px;
+  // Takes whatever the fixed 232px sidebar and the gutter leave, so the
+  // split stays proportional instead of both columns being hard-coded.
+  width: calc(100% - 310px);
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
@@ -594,6 +603,36 @@ h1 {
 }
 
 // ---------------------------------------------------------------
+// Small pill links beside a paper title: PDF, Publisher, Replication.
+// Applied in index.md with kramdown's attribute syntax, e.g.
+//   [PDF](/assets/files/paper.pdf){: .pub-link}
+// ---------------------------------------------------------------
+.pub-link {
+  display: inline-block;
+  margin-left: 0.3rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid #E0D5C6;
+  border-radius: 1rem;
+  background-color: #F1E9DE;
+  color: #7B2B32;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  line-height: 1.7;
+  vertical-align: 0.12em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+
+.pub-link:hover {
+  background-color: #7B2B32;
+  border-color: #7B2B32;
+  color: #FAF6F0;
+}
+
+// ---------------------------------------------------------------
 // Sticky in-page navigation, built by assets/js/section-nav.js.
 // It sits inside <section>, so on desktop it spans only the right-hand
 // column and pins there; below 960px the layout stops floating and it
@@ -796,6 +835,18 @@ h2[id] {
   #section-nav a.current {
     color: #D4999E;
     border-bottom-color: #D4999E;
+  }
+
+  .pub-link {
+    border-color: #3E3236;
+    background-color: #282023;
+    color: #D4999E;
+  }
+
+  .pub-link:hover {
+    background-color: #D4999E;
+    border-color: #D4999E;
+    color: #1D1719;
   }
 }
 
