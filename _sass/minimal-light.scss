@@ -240,10 +240,10 @@ a:hover small {
   // with the viewport up to a ceiling. The ceiling exists because the body
   // text is justified: past roughly this width the measure gets too long to
   // read comfortably.
-  // Written as width + max-width rather than min(), because the Sass engine
-  // GitHub Pages uses tries to evaluate min() and errors on mixed units.
+  // No ceiling: the sidebar keeps its fixed width and the right column takes
+  // everything else, however wide the screen is. 92vw leaves a small margin
+  // so the content is not flush against the window edges.
   width: 92vw;
-  max-width: 1180px;
   margin:0 auto;
 }
 
