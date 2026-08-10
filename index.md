@@ -53,38 +53,48 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 ## Teaching
 
-### [ICPSR Summer Program in Quantitative Methods](https://www.icpsr.umich.edu/web/pages/sumprog/)
+*Figures after each course are mean student evaluations, on a 1–5 scale.*
 
-- Matrix Algebra, Calculus, and Probability (graduate). Summer 2025, Summer 2026. Teaching Assistant for [Tim McDaniel](https://www.bvu.edu/academics/faculty/timothy-mcdaniel). Teaching evaluation by students: 4.51 out of 5.
-- Causal Inference II for the Social Sciences (graduate). Summer 2025, Summer 2026. Teaching Assistant for [Sebastian Calonico](https://sites.google.com/site/scalonico/) and [Nicolás Idrobo](https://idrobo.github.io/). Teaching evaluation by students: 4.62 out of 5.
+### Teaching Assistant (at [ICPSR Summer Program in Quantitative Methods](https://www.icpsr.umich.edu/web/pages/sumprog/))
 
-### [University of Rochester](https://www.sas.rochester.edu/psc/index.html)
+Graduate
+
+- Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026) · with [Tim McDaniel](https://www.bvu.edu/academics/faculty/timothy-mcdaniel) · 4.51/5
+- Causal Inference II for the Social Sciences (Summer 2025, Summer 2026) · with [Sebastian Calonico](https://sites.google.com/site/scalonico/) and [Nicolás Idrobo](https://idrobo.github.io/) · 4.62/5
+
+### Teaching Assistant (at [University of Rochester](https://www.sas.rochester.edu/psc/index.html))
 
 *Best Teaching Assistant in Political Science, 2024*
 
-- Senior Honors Seminar (undergraduate). Fall 2024, Spring 2025. Teaching Assistant for [Casey Petroff](https://caseypetroff.github.io/).
-- Introduction to International Political Economy (undergraduate). Spring 2024. Teaching Assistant for [Randall Stone](https://www.sas.rochester.edu/psc/people/view.php?fid=29). Teaching evaluation by students: 4.47 out of 5.
-- Introduction to Comparative Politics (undergraduate). Fall 2023. Teaching Assistant for [Bonnie Meguid](http://www.bonniemeguid.com/). Teaching evaluation by students: 4.68 out of 5.
+Undergraduate
 
-### [Universidade Paulista, Brazil](https://www.unip.br/)
+- Senior Honors Seminar (Fall 2024, Spring 2025) · with [Casey Petroff](https://caseypetroff.github.io/)
+- Introduction to International Political Economy (Spring 2024) · with [Randall Stone](https://www.sas.rochester.edu/psc/people/view.php?fid=29) · 4.47/5
+- Introduction to Comparative Politics (Fall 2023) · with [Bonnie Meguid](http://www.bonniemeguid.com/) · 4.68/5
 
-*Instructor of Record, 2018–2021*
+### Instructor of Record (at [Universidade Paulista, Brazil](https://www.unip.br/))
 
-- Economics and International Politics (undergraduate).
-- Geopolitics and Global Markets (undergraduate).
-- International Business (undergraduate).
-- Microeconomics I (undergraduate).
-- Microeconomics II (undergraduate).
-- Introduction to Statistics (undergraduate).
+Undergraduate (2018–2021)
 
-### [IPSA São Paulo Summer School in Methods](https://summerschool.fflch.usp.br/)
+- Economics and International Politics
+- Geopolitics and Global Markets
+- International Business
+- Microeconomics I
+- Microeconomics II
+- Introduction to Statistics
 
-- Survey Design (graduate). 2020. Teaching Assistant for [Bruno Cautrès](https://www.sciencespo.fr/cevipof/en/researcher/bruno-cautres.html).
-- Survey Analysis (graduate). 2020. Teaching Assistant for [Bruno Cautrès](https://www.sciencespo.fr/cevipof/en/researcher/bruno-cautres.html).
+### Teaching Assistant (at [IPSA São Paulo Summer School in Methods](https://summerschool.fflch.usp.br/))
 
-### [University of São Paulo](https://dcp.fflch.usp.br/)
+Graduate
 
-- Quantitative Methods for Social Sciences (graduate). 2018. Teaching Assistant for [Glauco Peres da Silva](https://dcp.fflch.usp.br/en/glauco-peres-da-silva).
+- Survey Design (2020) · with [Bruno Cautrès](https://www.sciencespo.fr/cevipof/en/researcher/bruno-cautres.html)
+- Survey Analysis (2020) · with [Bruno Cautrès](https://www.sciencespo.fr/cevipof/en/researcher/bruno-cautres.html)
+
+### Teaching Assistant (at [University of São Paulo](https://dcp.fflch.usp.br/))
+
+Graduate
+
+- Quantitative Methods for Social Sciences (2018) · with [Glauco Peres da Silva](https://dcp.fflch.usp.br/en/glauco-peres-da-silva)
 
 
 <br> <br>
