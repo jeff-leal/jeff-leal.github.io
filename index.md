@@ -1,12 +1,7 @@
 ---
 layout: homepage
 ---
-<br>
-<p align="center">
-  <img src="/assets/img/jeff_profile_pic.png" alt="Jefferson Leal">
-</p>
-<br><br> <br> 
-
+<img class="profile-photo" src="/assets/img/jeff_profile_pic.png" alt="Jefferson Leal">
 
 Hi! I am a Ph.D. Candidate in Political Science at the [University of Rochester](https://www.sas.rochester.edu/psc/index.html). My research examines how candidate strategy shapes public policy provision in developing democracies. I study how ideological positioning, far-right extremism, populism, and political experience affect public policy outcomes, drawing primarily on Brazilian local politics while engaging with broader comparative evidence. Methodologically, I am interested in causal inference, text-as-data, and machine learning.
 
@@ -60,46 +55,38 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 ## Teaching
 
-### Teaching Assistant (at ICPSR Summer Program in Quantitative Methods)
+### [ICPSR Summer Program in Quantitative Methods](https://www.icpsr.umich.edu/web/pages/sumprog/)
 
-Graduate
+- Matrix Algebra, Calculus, and Probability (graduate). Summer 2025, Summer 2026. Teaching Assistant for [Tim McDaniel](https://www.bvu.edu/academics/faculty/timothy-mcdaniel). Teaching evaluation by students: 4.51 out of 5.
+- Causal Inference II for the Social Sciences (graduate). Summer 2025, Summer 2026. Teaching Assistant for [Sebastian Calonico](https://sites.google.com/site/scalonico/) and [Nicolás Idrobo](https://idrobo.github.io/). Teaching evaluation by students: 4.62 out of 5.
 
-- Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026)
-- Causal Inference II for the Social Sciences (Summer 2025, Summer 2026)
-
-### Teaching Assistant (at University of Rochester)
+### [University of Rochester](https://www.sas.rochester.edu/psc/index.html)
 
 *Best Teaching Assistant in Political Science, 2024*
 
-Undergraduate
+- Senior Honors Seminar (undergraduate). Fall 2024, Spring 2025. Teaching Assistant for [Casey Petroff](https://caseypetroff.github.io/).
+- Introduction to International Political Economy (undergraduate). Spring 2024. Teaching Assistant for [Randall Stone](https://www.sas.rochester.edu/psc/people/view.php?fid=29). Teaching evaluation by students: 4.47 out of 5.
+- Introduction to Comparative Politics (undergraduate). Fall 2023. Teaching Assistant for [Bonnie Meguid](http://www.bonniemeguid.com/). Teaching evaluation by students: 4.68 out of 5.
 
-- Senior Honors Seminar (Fall 2024, Spring 2025)
-- Introduction to International Political Economy (Spring 2024)
-- Introduction to Comparative Politics (Fall 2023)
+### [Universidade Paulista, Brazil](https://www.unip.br/)
 
-### Instructor of Record (at Universidade Paulista, Brazil)
+*Instructor of Record, 2018–2021*
 
-Undergraduate (2018–2021)
+- Economics and International Politics (undergraduate).
+- Geopolitics and Global Markets (undergraduate).
+- International Business (undergraduate).
+- Microeconomics I (undergraduate).
+- Microeconomics II (undergraduate).
+- Introduction to Statistics (undergraduate).
 
-- Economics and International Politics
-- Geopolitics and Global Markets
-- International Business
-- Microeconomics I
-- Microeconomics II
-- Introduction to Statistics
+### [IPSA São Paulo Summer School in Methods](https://summerschool.fflch.usp.br/)
 
-### Teaching Assistant (at IPSA São Paulo Summer School in Methods)
+- Survey Design (graduate). 2020. Teaching Assistant for [Bruno Cautrès](https://www.sciencespo.fr/cevipof/en/researcher/bruno-cautres.html).
+- Survey Analysis (graduate). 2020. Teaching Assistant for [Bruno Cautrès](https://www.sciencespo.fr/cevipof/en/researcher/bruno-cautres.html).
 
-Graduate
+### [University of São Paulo](https://dcp.fflch.usp.br/)
 
-- Survey Design (2020)
-- Survey Analysis (2020)
-
-### Teaching Assistant (at University of São Paulo)
-
-Graduate
-
-- Quantitative Methods for Social Sciences (2018)
+- Quantitative Methods for Social Sciences (graduate). 2018. Teaching Assistant for [Glauco Peres da Silva](https://dcp.fflch.usp.br/en/glauco-peres-da-silva).
 
 
 <br> <br>
