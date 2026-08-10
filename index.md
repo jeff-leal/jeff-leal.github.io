@@ -77,6 +77,17 @@ Undergraduate
 - Introduction to International Political Economy (Spring 2024)
 - Introduction to Comparative Politics (Fall 2023)
 
+### Instructor of Record (at Universidade Paulista, Brazil)
+
+Undergraduate (2018–2021)
+
+- Economics and International Politics
+- Geopolitics and Global Markets
+- International Business
+- Microeconomics I
+- Microeconomics II
+- Introduction to Statistics
+
 ### Teaching Assistant (at IPSA São Paulo Summer School in Methods)
 
 Graduate
@@ -89,17 +100,6 @@ Graduate
 Graduate
 
 - Quantitative Methods for Social Sciences (2018)
-
-### Instructor of Record (at Universidade Paulista, Brazil)
-
-Undergraduate (2018–2021)
-
-- Economics and International Politics
-- Geopolitics and Global Markets
-- International Business
-- Microeconomics I
-- Microeconomics II
-- Introduction to Statistics
 
 <!-- {% include_relative _includes/publications.md %} -->
 
