@@ -101,6 +101,25 @@ Graduate
 
 - Quantitative Methods for Social Sciences (2018)
 
+
+<br> <br>
+
+## Policy
+
+ Ian Prates, Rogério Barbosa & Jefferson Leal. "Black men and black women are the most vulnerable in the crisis; however, a 'new vulnerable' group emerges: white men and white women in non-essential services" [PDF](/assets/files/prates_barbosa_leal_vulnerability_2020.pdf){: .pub-link}<br>
+ *Technical Note 3 · Solidary Research Network, April 2020*
+<details>
+  <summary>Abstract</summary>
+  Brazil's COVID-19 downturn did not distribute risk evenly across the labor force. This note classifies workers by the instability of their employment relationship and by the pandemic exposure of their economic sector, then crosses the two to map vulnerability across regions, education, gender, and race. We estimate that 83.5% of employed workers were in a vulnerable position: 36.6% through informal, highly unstable employment, and a further 45.9% through formally registered jobs in sectors the crisis hit hard. This second group, disproportionately white, better educated, and concentrated in non-essential and heavily affected essential services, constitutes a "new vulnerable" population that roughly doubles the usual contingent at risk. Black men and black women remain the most exposed, concentrated in fragile employment relationships, with black women the single most vulnerable group. Pre-existing segregation by sector and contract type, rather than the shock itself, determined who bore the risk.
+</details>
+<br>
+ Ian Prates, Rogério Barbosa, Jefferson Leal et al. "Emergency benefit providing R$600 needs to continue and could be funded by emergency contribution on high incomes" [PDF](/assets/files/prates_barbosa_leal_emergency_income_2020.pdf){: .pub-link}<br>
+ *Technical Note 8 · Solidary Research Network, May 2020*
+<details>
+  <summary>Abstract</summary>
+  Prolonged social distancing disrupted the Brazilian labor market, and the wage and hours reductions authorized by Provisional Measure 936 cut per capita household income by nearly R$200, leaving formally registered workers ineligible for the Emergency Basic Income without compensation. This note reviews unemployment and income trends through May 2020, assesses the coverage and take-up of the R$600 benefit, and evaluates the proposals before Congress to extend it. By 26 May, 57.9 million beneficiaries had received R$74.6 billion, yet two thirds of the applications processed through the single registry for social programs were denied without stated reason. We show that reducing the benefit to R$200, as the Ministry of the Economy proposed, would push roughly 20 million additional people into poverty, and that maintaining R$600 for three further months would cost R$121.5 billion. A progressive Emergency Social Contribution on incomes above fifteen minimum wages would raise R$142 billion, enough to fund the extension outright.
+</details>
+
 <!-- {% include_relative _includes/publications.md %} -->
 
 <!-- {% include_relative _includes/services.md %} -->
