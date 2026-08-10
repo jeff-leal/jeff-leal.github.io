@@ -554,14 +554,14 @@ h1 {
 
 // ---------------------------------------------------------------
 // The portrait: a circle at the top of the left column, above the
-// name. The source file is already cropped square around the face,
-// so the circle frames a portrait rather than the whole scene;
-// object-fit only guards against a non-square file replacing it.
+// name. The file is a 404px square, so at 200px the browser has one
+// source pixel per device pixel on a 2x display and never has to
+// resample. object-fit only guards a non-square replacement file.
 // ---------------------------------------------------------------
 .profile-photo {
   display: block;
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
   object-fit: cover;
   border-radius: 100%;
