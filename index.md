@@ -70,7 +70,7 @@ Graduate
 Undergraduate
 
 - Senior Honors Seminar (Fall 2024, Spring 2025) · with [Casey Petroff](https://caseypetroff.github.io/)
-- Introduction to International Political Economy (Spring 2024) · with [Randall Stone](https://www.sas.rochester.edu/psc/people/view.php?fid=29) · Teaching evaluation: 4.47/5
+- Introduction to International Political Economy (Spring 2024) · with [Randall Stone](https://www.sas.rochester.edu/psc/stone/index.html) · Teaching evaluation: 4.47/5
 - Introduction to Comparative Politics (Fall 2023) · with [Bonnie Meguid](http://www.bonniemeguid.com/) · Teaching evaluation: 4.68/5
 
 ### [Universidade Paulista, Brazil](https://www.unip.br/)
