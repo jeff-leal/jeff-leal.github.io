@@ -546,37 +546,25 @@ body {
   text-align: justify;
 }
 
-// Drops the name in the left column to sit beside the circular portrait
-// that opens the right-hand column.
+// The portrait sits directly above it in the left column, so the name
+// needs only the gap, not the old offset that cleared a full-width photo.
 h1 {
-  margin-top: 120px;
+  margin-top: 26px;
 }
 
 // ---------------------------------------------------------------
-// The portrait. A circle set to the right of the opening paragraphs,
-// with the crop pushed down the frame because the source photograph
-// carries a lot of sky above the face.
+// The portrait: a circle at the top of the left column, above the
+// name. The crop is pushed down the frame because the source
+// photograph carries a lot of sky above the face.
 // ---------------------------------------------------------------
 .profile-photo {
-  float: right;
-  width: 230px;
-  height: 230px;
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
   object-fit: cover;
   object-position: 50% 60%;
   border-radius: 100%;
-  margin: 0.2rem 0 1.6rem 2.2rem;
-  shape-outside: circle();
-}
-
-// Too narrow to wrap text beside it; centre it above the prose instead.
-@media print, screen and (max-width: 700px) {
-  .profile-photo {
-    float: none;
-    display: block;
-    width: 190px;
-    height: 190px;
-    margin: 0 auto 1.6rem;
-  }
 }
 
 // ---------------------------------------------------------------

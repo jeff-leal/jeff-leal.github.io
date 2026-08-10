@@ -1,8 +1,6 @@
 ---
 layout: homepage
 ---
-<img class="profile-photo" src="/assets/img/jeff_profile_pic.png" alt="Jefferson Leal">
-
 Hi! I am a Ph.D. Candidate in Political Science at the [University of Rochester](https://www.sas.rochester.edu/psc/index.html). My research examines how candidate strategy shapes public policy provision in developing democracies. I study how ideological positioning, far-right extremism, populism, and political experience affect public policy outcomes, drawing primarily on Brazilian local politics while engaging with broader comparative evidence. Methodologically, I am interested in causal inference, text-as-data, and machine learning.
 
 Before coming to Rochester, I received my M.A. in political science and my B.A. degrees in economics and international relations from the University of São Paulo, in Brazil. In my free time, I love to hike and learn tango.
