@@ -53,26 +53,29 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 ## Teaching
 
-*Figures after each course are mean student evaluations, on a 1–5 scale.*
+### [ICPSR Summer Program in Quantitative Methods](https://www.icpsr.umich.edu/web/pages/sumprog/)
 
-### Teaching Assistant (at [ICPSR Summer Program in Quantitative Methods](https://www.icpsr.umich.edu/web/pages/sumprog/))
+*Teaching Assistant*
 
 Graduate
 
-- Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026) · with [Tim McDaniel](https://www.bvu.edu/academics/faculty/timothy-mcdaniel) · 4.51/5
-- Causal Inference II for the Social Sciences (Summer 2025, Summer 2026) · with [Sebastian Calonico](https://sites.google.com/site/scalonico/) and [Nicolás Idrobo](https://idrobo.github.io/) · 4.62/5
+- Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026) · with [Tim McDaniel](https://www.bvu.edu/academics/faculty/timothy-mcdaniel) · Teaching evaluation: 4.51/5
+- Causal Inference II for the Social Sciences (Summer 2025, Summer 2026) · with [Sebastian Calonico](https://sites.google.com/site/scalonico/) and [Nicolás Idrobo](https://idrobo.github.io/) · Teaching evaluation: 4.62/5
 
-### Teaching Assistant (at [University of Rochester](https://www.sas.rochester.edu/psc/index.html))
+### [University of Rochester](https://www.sas.rochester.edu/psc/index.html)
 
+*Teaching Assistant*<br>
 *Best Teaching Assistant in Political Science, 2024*
 
 Undergraduate
 
 - Senior Honors Seminar (Fall 2024, Spring 2025) · with [Casey Petroff](https://caseypetroff.github.io/)
-- Introduction to International Political Economy (Spring 2024) · with [Randall Stone](https://www.sas.rochester.edu/psc/people/view.php?fid=29) · 4.47/5
-- Introduction to Comparative Politics (Fall 2023) · with [Bonnie Meguid](http://www.bonniemeguid.com/) · 4.68/5
+- Introduction to International Political Economy (Spring 2024) · with [Randall Stone](https://www.sas.rochester.edu/psc/people/view.php?fid=29) · Teaching evaluation: 4.47/5
+- Introduction to Comparative Politics (Fall 2023) · with [Bonnie Meguid](http://www.bonniemeguid.com/) · Teaching evaluation: 4.68/5
 
-### Instructor of Record (at [Universidade Paulista, Brazil](https://www.unip.br/))
+### [Universidade Paulista, Brazil](https://www.unip.br/)
+
+*Instructor of Record*
 
 Undergraduate (2018–2021)
 
@@ -83,14 +86,18 @@ Undergraduate (2018–2021)
 - Microeconomics II
 - Introduction to Statistics
 
-### Teaching Assistant (at [IPSA São Paulo Summer School in Methods](https://summerschool.fflch.usp.br/))
+### [IPSA São Paulo Summer School in Methods](https://summerschool.fflch.usp.br/)
+
+*Teaching Assistant*
 
 Graduate
 
 - Survey Design (2020) · with [Bruno Cautrès](https://www.sciencespo.fr/cevipof/en/researcher/bruno-cautres.html)
 - Survey Analysis (2020) · with [Bruno Cautrès](https://www.sciencespo.fr/cevipof/en/researcher/bruno-cautres.html)
 
-### Teaching Assistant (at [University of São Paulo](https://dcp.fflch.usp.br/))
+### [University of São Paulo](https://dcp.fflch.usp.br/)
+
+*Teaching Assistant*
 
 Graduate
 
