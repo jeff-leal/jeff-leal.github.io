@@ -5,6 +5,9 @@
  * a section to index.md adds a link with no other change. Subsection headings
  * (h3) are deliberately ignored.
  *
+ * A heading whose full wording is too long for the bar can carry a shorter
+ * label with a kramdown attribute list: {: data-nav="Policy"}.
+ *
  * The bar is sticky within the right-hand column on desktop and spans the
  * full width on narrow screens, where the layout stops floating.
  */
@@ -26,7 +29,7 @@
     heads.forEach(function (h) {
       var a = document.createElement('a');
       a.href = '#' + h.id;
-      a.textContent = (h.textContent || '').trim();
+      a.textContent = (h.getAttribute('data-nav') || h.textContent || '').trim();
       nav.appendChild(a);
       links.push(a);
     });
