@@ -660,22 +660,11 @@ h1 {
   border-bottom: 1px solid #E0D5C6;
 }
 
-// The name at the left end of the bar, so it stays in view once the page
-// scrolls past the header.
-#section-nav-name {
-  flex: 0 0 auto;
-  margin-right: 1.2rem;
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  color: #7B2B32;
-  text-decoration: none;
-}
-
-#section-nav-name:hover {
-  color: #98352C;
+// Balances the toggle at the right end, so the links stay centred on the
+// bar rather than on the space left over beside it.
+#section-nav::before {
+  content: '';
+  flex: 0 0 3.4rem;
 }
 
 // Only the links scroll sideways when there are too many for the width; the
@@ -698,13 +687,14 @@ h1 {
 // One section or none: no links worth showing, so the bar drops its rule and
 // carries nothing but the toggle.
 #section-nav.bare {
+  justify-content: flex-end;
   background-color: transparent;
   border-bottom: 0;
   margin-bottom: 0.6rem;
 }
 
-#section-nav.bare #section-nav-name {
-  margin-right: auto;
+#section-nav.bare::before {
+  content: none;
 }
 
 #section-nav a {
@@ -743,11 +733,9 @@ h2[id] {
     padding-right: 15px;
   }
 
-  // Narrow screens are where the name matters most, the header having stopped
-  // being fixed, but it has to give up some width to the links.
-  #section-nav-name {
-    margin-right: 0.9rem;
-    font-size: 0.7rem;
+  // Too little width to spend on balancing whitespace; the links take it all.
+  #section-nav::before {
+    display: none;
   }
 }
 
@@ -869,14 +857,6 @@ h2[id] {
   #section-nav {
     background-color: #1D1719;
     border-bottom-color: #3E3236;
-  }
-
-  #section-nav-name {
-    color: #D4999E;
-  }
-
-  #section-nav-name:hover {
-    color: #CE7E76;
   }
 
   #section-nav a {

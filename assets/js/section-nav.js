@@ -12,6 +12,10 @@
  * full width on narrow screens, where the layout stops floating.
  */
 (function () {
+  // The first link returns to the top of the page, where the opening
+  // biography sits. Rename it here and nowhere else.
+  var TOP_LABEL = 'About';
+
   function build() {
     var section = document.querySelector('.wrapper section');
     var nav = document.getElementById('section-nav');
@@ -27,6 +31,17 @@
       nav.className = 'bare';
       return;
     }
+
+    // Sits ahead of the section links. It has no heading of its own, so it
+    // scrolls rather than jumping to an anchor, and leaves no hash behind.
+    var toTop = document.createElement('a');
+    toTop.href = '#';
+    toTop.textContent = TOP_LABEL;
+    toTop.addEventListener('click', function (e) {
+      e.preventDefault();
+      window.scrollTo(0, 0);
+    });
+    list.appendChild(toTop);
 
     var links = [];
     heads.forEach(function (h) {
@@ -47,7 +62,8 @@
     function mark() {
       ticking = false;
       var line = window.pageYOffset + nav.offsetHeight + 12;
-      var current = 0;
+      // -1 means the reader is still above the first section, in the bio.
+      var current = -1;
       for (var i = 0; i < heads.length; i++) {
         if (top(heads[i]) <= line) current = i;
       }
@@ -55,6 +71,7 @@
       if (window.innerHeight + window.pageYOffset >= document.body.scrollHeight - 2) {
         current = heads.length - 1;
       }
+      toTop.className = (current === -1) ? 'current' : '';
       for (var j = 0; j < links.length; j++) {
         links[j].className = (j === current) ? 'current' : '';
       }
