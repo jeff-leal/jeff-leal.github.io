@@ -554,8 +554,9 @@ h1 {
 
 // ---------------------------------------------------------------
 // The portrait: a circle at the top of the left column, above the
-// name. The crop is pushed down the frame because the source
-// photograph carries a lot of sky above the face.
+// name. The source file is already cropped square around the face,
+// so the circle frames a portrait rather than the whole scene;
+// object-fit only guards against a non-square file replacing it.
 // ---------------------------------------------------------------
 .profile-photo {
   display: block;
@@ -563,7 +564,6 @@ h1 {
   height: 180px;
   margin: 0 auto;
   object-fit: cover;
-  object-position: 50% 60%;
   border-radius: 100%;
 }
 
