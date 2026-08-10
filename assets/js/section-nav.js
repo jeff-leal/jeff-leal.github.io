@@ -15,13 +15,16 @@
   function build() {
     var section = document.querySelector('.wrapper section');
     var nav = document.getElementById('section-nav');
-    if (!nav || !section) return;
+    var list = document.getElementById('section-nav-links');
+    if (!nav || !list || !section) return;
 
     var heads = Array.prototype.slice.call(section.querySelectorAll('h2[id]'));
 
-    // With fewer than two sections a nav is just clutter.
+    // With fewer than two sections the links are just clutter. The bar itself
+    // stays, stripped of its rule, because the theme toggle lives in it.
     if (heads.length < 2) {
-      nav.parentNode.removeChild(nav);
+      list.parentNode.removeChild(list);
+      nav.className = 'bare';
       return;
     }
 
@@ -30,7 +33,7 @@
       var a = document.createElement('a');
       a.href = '#' + h.id;
       a.textContent = (h.getAttribute('data-nav') || h.textContent || '').trim();
-      nav.appendChild(a);
+      list.appendChild(a);
       links.push(a);
     });
 

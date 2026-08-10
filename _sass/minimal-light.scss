@@ -551,16 +551,15 @@ h1 {
 }
 
 // ---------------------------------------------------------------
-// The theme toggle in the top-right corner. Cycles system -> dark ->
-// light; assets/js/theme-toggle.js stores the choice and sets
-// data-theme on <html>. Typographic rather than an icon, to match a
-// page that is otherwise all text.
+// The theme toggle. It rides at the right end of the sticky section
+// bar, the way documentation sites place theirs, so it scrolls with
+// the bar instead of floating over the prose.
+// assets/js/theme-toggle.js stores the choice and sets data-theme on
+// <html>.
 // ---------------------------------------------------------------
 #theme-toggle {
-  position: fixed;
-  top: 22px;
-  right: 22px;
-  z-index: 100;
+  flex: 0 0 auto;
+  margin-left: 0.8rem;
   width: 2.6rem;
   height: 2.6rem;
   padding: 0;
@@ -589,13 +588,6 @@ h1 {
 #theme-toggle:focus-visible {
   outline: 2px solid #98352C;
   outline-offset: 2px;
-}
-
-@media print, screen and (max-width: 480px) {
-  #theme-toggle {
-    top: 12px;
-    right: 12px;
-  }
 }
 
 @media print {
@@ -642,31 +634,49 @@ h1 {
   position: sticky;
   top: 0;
   z-index: 90;
-  // Tall enough that the floating theme toggle sits fully inside the bar
-  // rather than being clipped by its lower edge once the bar is pinned.
-  // The toggle runs from 22px to 64px, so 66px clears it at every width.
   box-sizing: border-box;
-  min-height: 66px;
   display: flex;
-  gap: 1.7rem;
   align-items: center;
-  justify-content: center;
   margin: 0 0 1.8rem;
   padding: 0.75rem 0 0.7rem;
   background-color: #FAF6F0;
   border-bottom: 1px solid #E0D5C6;
-  // Many sections on a narrow screen scroll sideways rather than wrap.
+  // Balances the toggle at the right end, so the links stay centred on the
+  // bar rather than on the space left over beside it.
+  &::before {
+    content: '';
+    flex: 0 0 3.4rem;
+  }
+}
+
+// Only the links scroll sideways when there are too many for the width; the
+// toggle sits outside that box and so never scrolls out of reach.
+#section-nav-links {
+  flex: 1 1 auto;
+  display: flex;
+  gap: 1.7rem;
+  align-items: center;
+  justify-content: center;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
 
-#section-nav::-webkit-scrollbar {
+#section-nav-links::-webkit-scrollbar {
   display: none;
 }
 
-#section-nav:empty {
-  display: none;
+// One section or none: no links worth showing, so the bar drops its rule and
+// carries nothing but the toggle.
+#section-nav.bare {
+  justify-content: flex-end;
+  background-color: transparent;
+  border-bottom: 0;
+  margin-bottom: 0.6rem;
+
+  &::before {
+    content: none;
+  }
 }
 
 #section-nav a {
@@ -701,10 +711,13 @@ h2[id] {
     // Bleed to the screen edges so content does not show beside the bar.
     margin-left: -15px;
     margin-right: -15px;
-    // Symmetric, so the centred links stay centred while still keeping
-    // clear of the toggle at the right end.
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  // Too little width to spend on balancing whitespace; the links take it all.
+  #section-nav::before {
+    display: none;
   }
 }
 

@@ -63,9 +63,6 @@
 
   </head>
   <body>
-    {% if site.auto_dark_mode %}
-    <button id="theme-toggle" type="button" title="Switch colour theme" aria-label="Switch colour theme"></button>
-    {% endif %}
     <div class="wrapper">
       <header>
 <!--         
@@ -131,9 +128,16 @@
       </header>
       <section>
 
-      <!-- Populated by assets/js/section-nav.js from the h2 headings below,
-           so adding a section to index.md adds a link automatically. -->
-      <nav id="section-nav" aria-label="Page sections"></nav>
+      <!-- The links are populated by assets/js/section-nav.js from the h2
+           headings below, so adding a section to index.md adds a link
+           automatically. The theme toggle rides at the right end of the same
+           sticky bar, which keeps it reachable without floating over the text. -->
+      <nav id="section-nav" aria-label="Page sections">
+        <div id="section-nav-links"></div>
+        {% if site.auto_dark_mode %}
+        <button id="theme-toggle" type="button" title="Switch colour theme" aria-label="Switch colour theme"></button>
+        {% endif %}
+      </nav>
 
       {{ content }}
 
