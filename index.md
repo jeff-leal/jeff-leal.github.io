@@ -15,7 +15,7 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 ### Publications
 
- Anderson Frey & Jefferson Leal. "When Crisis Hits, Does Experience Matter? Evidence from COVID-19 Vaccination" [PDF](/assets/files/frey_leal_crisis_experience.pdf){: .pub-link}<br>
+ [Anderson Frey](https://www.andersonfrey.com/) & Jefferson Leal. "When Crisis Hits, Does Experience Matter? Evidence from COVID-19 Vaccination" [PDF](/assets/files/frey_leal_crisis_experience.pdf){: .pub-link}<br>
  *Conditionally accepted at the British Journal of Political Science*
 <details>
   <summary>Abstract</summary>
@@ -25,7 +25,7 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 ### Book Chapters
 
- Eduardo Lazzari & Jefferson Leal. "Brazilian Tax Policy under the Lens of Inequality" [Publisher](https://editoraunesp.com.br/catalogo/9788539308187,as-politicas-da-politica){: .pub-link}<br>
+ [Eduardo Lazzari](https://eduardolazzari.github.io/en/) & Jefferson Leal. "Brazilian Tax Policy under the Lens of Inequality" [Publisher](https://editoraunesp.com.br/catalogo/9788539308187,as-politicas-da-politica){: .pub-link}<br>
  *In The Policies of Politics · in Portuguese*
  <details>
   <summary>Abstract</summary>
