@@ -25,7 +25,7 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 ### Book Chapters
 
- [Eduardo Lazzari](https://eduardolazzari.github.io/en/) & Jefferson Leal. "Brazilian Tax Policy under the Lens of Inequality" [Publisher](https://editoraunesp.com.br/catalogo/9788539308187,as-politicas-da-politica){: .pub-link}<br>
+ [Eduardo Lazzari](https://eduardolazzari.github.io/en/) & Jefferson Leal. "Brazilian Tax Policy under the Lens of Inequality" [PDF](/assets/files/lazzari_leal_tax_inequality.pdf){: .pub-link} [Publisher](https://editoraunesp.com.br/catalogo/9788539308187,as-politicas-da-politica){: .pub-link}<br>
  *In The Policies of Politics · in Portuguese*
  <details>
   <summary>Abstract</summary>
