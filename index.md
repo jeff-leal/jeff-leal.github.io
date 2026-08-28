@@ -59,8 +59,8 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 Graduate
 
-- Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026) · with [Tim McDaniel](https://www.bvu.edu/academics/faculty/timothy-mcdaniel) · Teaching evaluation: 4.51/5
-- Causal Inference II for the Social Sciences (Summer 2025, Summer 2026) · with [Sebastian Calonico](https://sites.google.com/site/scalonico/) and [Nicolás Idrobo](https://idrobo.github.io/) · Teaching evaluation: 4.62/5
+- Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026) · with [Tim McDaniel](https://www.bvu.edu/academics/faculty/timothy-mcdaniel) · Teaching evaluation: 4.51/5 [Syllabus 2025](/assets/files/syllabus_icpsr_matrix_algebra_2025.pdf){: .pub-link} [Syllabus 2026](/assets/files/syllabus_icpsr_matrix_algebra_2026.pdf){: .pub-link}
+- Causal Inference II for the Social Sciences (Summer 2025, Summer 2026) · with [Sebastian Calonico](https://sites.google.com/site/scalonico/) and [Nicolás Idrobo](https://idrobo.github.io/) · Teaching evaluation: 4.62/5 [Syllabus 2025](/assets/files/syllabus_icpsr_causal_inference_2025.pdf){: .pub-link} [Syllabus 2026](/assets/files/syllabus_icpsr_causal_inference_2026.pdf){: .pub-link}
 
 ### [University of Rochester](https://www.sas.rochester.edu/psc/index.html)
 
@@ -70,21 +70,21 @@ Graduate
 Undergraduate
 
 - Senior Honors Seminar (Fall 2024, Spring 2025) · with [Casey Petroff](https://caseypetroff.github.io/)
-- Introduction to International Political Economy (Spring 2024) · with [Randall Stone](https://www.sas.rochester.edu/psc/stone/index.html) · Teaching evaluation: 4.47/5
-- Introduction to Comparative Politics (Fall 2023) · with [Bonnie Meguid](http://www.bonniemeguid.com/) · Teaching evaluation: 4.68/5
+- Introduction to International Political Economy (Spring 2024) · with [Randall Stone](https://www.sas.rochester.edu/psc/stone/index.html) · Teaching evaluation: 4.47/5 [Syllabus](/assets/files/syllabus_ur_psc102_ipe_2024.pdf){: .pub-link}
+- Introduction to Comparative Politics (Fall 2023) · with [Bonnie Meguid](http://www.bonniemeguid.com/) · Teaching evaluation: 4.68/5 [Syllabus](/assets/files/syllabus_ur_psc101_comparative_politics_2023.pdf){: .pub-link}
 
 ### [Universidade Paulista, Brazil](https://www.unip.br/)
 
 *Instructor of Record*
 
-Undergraduate (2018–2021)
+Undergraduate
 
-- Economics and International Politics
-- Geopolitics and Global Markets
-- International Business
-- Microeconomics I
-- Microeconomics II
-- Introduction to Statistics
+- Economics and International Politics (1st semester 2020)
+- Geopolitics and Global Markets (1st semester 2021)
+- International Business (2nd semester 2019–2021)
+- Microeconomics I (1st semester 2020)
+- Microeconomics II (2nd semester 2019)
+- Introduction to Statistics (2nd semester 2019)
 
 ### [IPSA São Paulo Summer School in Methods](https://summerschool.fflch.usp.br/)
 
