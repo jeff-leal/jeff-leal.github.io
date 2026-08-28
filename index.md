@@ -59,7 +59,7 @@ Before coming to Rochester, I received my M.A. in political science and my B.A. 
 
 Graduate
 
-- Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026) · with [Tim McDaniel](https://www.bvu.edu/academics/faculty/timothy-mcdaniel) · Teaching evaluation: 4.51/5 [Syllabus 2025](/assets/files/syllabus_icpsr_matrix_algebra_2025.pdf){: .pub-link} [Syllabus 2026](/assets/files/syllabus_icpsr_matrix_algebra_2026.pdf){: .pub-link}
+- Matrix Algebra, Calculus, and Probability (Summer 2025, Summer 2026) · with [Tim McDaniel](https://www.bvu.edu/en/resources/faculty--staff/professor-timothy-mcdaniel/) · Teaching evaluation: 4.51/5 [Syllabus 2025](/assets/files/syllabus_icpsr_matrix_algebra_2025.pdf){: .pub-link} [Syllabus 2026](/assets/files/syllabus_icpsr_matrix_algebra_2026.pdf){: .pub-link}
 - Causal Inference II for the Social Sciences (Summer 2025, Summer 2026) · with [Sebastian Calonico](https://sites.google.com/site/scalonico/) and [Nicolás Idrobo](https://idrobo.github.io/) · Teaching evaluation: 4.62/5 [Syllabus 2025](/assets/files/syllabus_icpsr_causal_inference_2025.pdf){: .pub-link} [Syllabus 2026](/assets/files/syllabus_icpsr_causal_inference_2026.pdf){: .pub-link}
 
 ### [University of Rochester](https://www.sas.rochester.edu/psc/index.html)
