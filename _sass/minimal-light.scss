@@ -368,7 +368,11 @@ section {
   // split stays proportional instead of both columns being hard-coded.
   width: calc(100% - 310px);
   float:right;
-  padding-top:4.0em;
+  // No top padding: the section-nav band is the first thing in the column
+  // and is meant to sit flush with the top of the viewport from page load.
+  // Any padding here would place it lower at load and let it slide up to
+  // its sticky position on the first scroll.
+  padding-top:0;
   padding-bottom:50px;
 }
 
@@ -645,7 +649,9 @@ h1 {
 // Sticky in-page navigation, built by assets/js/section-nav.js.
 // It sits inside <section>, so on desktop it spans only the right-hand
 // column and pins there; below 960px the layout stops floating and it
-// spans the full width instead.
+// spans the full width instead. On desktop the section has no top
+// padding, so the band is already at top: 0 when the page loads and never
+// moves; on narrow screens it follows the header and pins on scroll.
 // ---------------------------------------------------------------
 // No rule along the bottom. The band is translucent and its lower edge
 // dissolves, so prose scrolling underneath fades out instead of being
