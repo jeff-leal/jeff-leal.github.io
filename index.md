@@ -82,8 +82,8 @@ Undergraduate
 - Economics and International Politics (1st semester 2020)
 - Geopolitics and Global Markets (1st semester 2021)
 - International Business (2nd semester 2019–2021)
-- Microeconomics I (1st semester 2020)
-- Microeconomics II (2nd semester 2019)
+- Microeconomics I (2nd semester 2019)
+- Microeconomics II (1st semester 2020)
 - Introduction to Statistics (2nd semester 2019)
 
 ### [IPSA São Paulo Summer School in Methods](https://summerschool.fflch.usp.br/)
