@@ -80,15 +80,15 @@ Undergraduate
 
 Undergraduate
 
-- Brazilian Culture (2nd semester 2018 and 2019, 1st semester 2020) [Syllabus 2018](/assets/files/syllabus_unip_brazilian_culture_2018.pdf){: .pub-link} [Syllabus 2019](/assets/files/syllabus_unip_brazilian_culture_2019.pdf){: .pub-link} [Syllabus 2020](/assets/files/syllabus_unip_brazilian_culture_2020.pdf){: .pub-link}
-- Economics and International Politics (1st semester 2020) [Syllabus 2020](/assets/files/syllabus_unip_economics_international_politics_2020.pdf){: .pub-link}
-- Economics & Markets (1st semester 2020) [Syllabus 2020](/assets/files/syllabus_unip_economics_markets_2020.pdf){: .pub-link}
-- Geopolitics and Global Markets (1st semester 2021) [Syllabus 2021](/assets/files/syllabus_unip_geopolitics_global_markets_2021.pdf){: .pub-link}
 - International Business (2nd semester 2019–2021) [Syllabus 2020](/assets/files/syllabus_unip_international_business_2020.pdf){: .pub-link}
 - International Marketing (2nd semester 2021) [Syllabus 2021](/assets/files/syllabus_unip_international_marketing_2021.pdf){: .pub-link}
-- Microeconomics I (2nd semester 2019)
+- Geopolitics and Global Markets (1st semester 2021) [Syllabus 2021](/assets/files/syllabus_unip_geopolitics_global_markets_2021.pdf){: .pub-link}
+- Brazilian Culture (2nd semester 2018 and 2019, 1st semester 2020) [Syllabus 2018](/assets/files/syllabus_unip_brazilian_culture_2018.pdf){: .pub-link} [Syllabus 2019](/assets/files/syllabus_unip_brazilian_culture_2019.pdf){: .pub-link} [Syllabus 2020](/assets/files/syllabus_unip_brazilian_culture_2020.pdf){: .pub-link}
+- Economics & Markets (1st semester 2020) [Syllabus 2020](/assets/files/syllabus_unip_economics_markets_2020.pdf){: .pub-link}
+- Economics and International Politics (1st semester 2020) [Syllabus 2020](/assets/files/syllabus_unip_economics_international_politics_2020.pdf){: .pub-link}
 - Microeconomics II (1st semester 2020)
 - Introduction to Statistics (2nd semester 2019)
+- Microeconomics I (2nd semester 2019)
 
 ### [IPSA São Paulo Summer School in Methods](https://summerschool.fflch.usp.br/)
 
